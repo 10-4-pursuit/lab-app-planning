@@ -32,15 +32,17 @@ Choose from any popular app. It can be an app for anything:
 
 #### In 1-3 sentences describe your application.
 
-> My app ...
+> My app gives puzzle lovers access to a ton of jigsaw puzzle they can rent. Once the jigsaw puzzle is complete, they can exchange it for a new one. 
 
 #### What is the name of your application?
 
-> APP NAME
+> Will Do Puzzles
 
 #### Create a minimum of 10 user stories. Make sure to use the format:
 
-- `As a <type of user>, I want to <some goal>, so that <some reason>.`
+-  As a puzzle enthusiast, I want to be able to rent a variety of jigsaw puzzles, without having to buy and store them all myself.
+- As a puzzle enthusiast, I want to browse the catalog of available puzzles and see detailed information about each puzzle, such as the size, difficulty level, and theme. 
+- As a puzzle enthusiast,
 
 Write the user stories below. Add more `>` for each user story or use `-` to make a list
 

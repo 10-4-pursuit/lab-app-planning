@@ -32,15 +32,40 @@ Choose from any popular app. It can be an app for anything:
 
 #### In 1-3 sentences describe your application.
 
-> My app ...
+> My app ... 
+
+- Our application is a comprehensive e-commerce platform that offers users a seamless shopping experience, allowing them to easily browse and add products to their cart, view detailed product information, create shopping lists, receive personalized sale notifications, track order statuses, earn and redeem rewards points, manage product listings for sellers, share favorite products on social media, customize shopping preferences for tailored recommendations, and securely save payment information for quick and hassle-free purchases.
+
+
 
 #### What is the name of your application?
 
 > APP NAME
 
+- eShop
 #### Create a minimum of 10 user stories. Make sure to use the format:
 
 - `As a <type of user>, I want to <some goal>, so that <some reason>.`
+
+- As a shopper, I want to browse and add products to my shopping cart, so that I can easily shop for items I need.
+
+- As a customer, I want to view details of a product, so that I can make an informed decision before purchasing.
+
+- As a shopper, I want to create a shopping list, so that I can plan my purchases in advance.
+
+- As a user, I want to receive notifications about ongoing sales or discounts, so that I can take advantage of special offers.
+
+- As a shopper, I want to track the status of my orders, so that I know when to expect delivery.
+
+- As a loyal customer, I want to earn and redeem rewards points, so that I can enjoy additional benefits.
+
+- As a seller, I want to manage my product listings, so that I can keep my inventory up-to-date.
+
+- As a shopper, I want to share my favorite products on social media, so that I can recommend them to friends and family.
+
+- As a user, I want to customize my shopping preferences, so that I receive personalized recommendations.
+
+- As a shopper, I want to securely save my payment information, so that I can make quick and hassle-free purchases.
 
 Write the user stories below. Add more `>` for each user story or use `-` to make a list
 
@@ -55,7 +80,9 @@ Follow the format provided (name of board, the 5 lists etc.) in the reading.
 
 Provide a link to your board below.
 
-> [APP NAME board]()
+> [Shopping App Development](https://trello.com/b/FxtlESbi)
+
+
 
 #### For one card, fill out more details, include:
 
@@ -68,7 +95,9 @@ Move that card to the `Doing` list and assign yourself to it.
 
 Provide a link to the specific card below.
 
-> [Detailed card]()
+> [Detailed card](https://trello.com/c/pVdRAg0u)
+
+
 
 #### Create one bug card.
 
@@ -86,7 +115,8 @@ Make sure to label it as a bug. Move the card to the `To Do` list.
 
 Provide a link to the specific card below.
 
-> [Bug card]()
+> [Bug card](https://trello.com/c/K3ADULZ7)
+
 
 #### Create one chore card
 
@@ -97,7 +127,7 @@ Think back to a chore you had in a recent lab or project and model that example.
 
 Provide a link to the specific card below.
 
-> [Chore card]()
+> [Chore card](https://trello.com/c/K3ADULZ7)
 
 ### Wireframes
 
@@ -125,10 +155,10 @@ Deploy this to GitHub pages.
 
 Write down three things that went well for you doing this lab.
  
- - one
- - two
- - three
+ - Learn how to use trello.
+ - Learn to not be afraid of making wireframes no matter how ugly I make them look.
+ - Much better understanding of making web apps and the process as a whole.
 
 Write down one thing you'd improve on for next time.
 
-> One thing I'd improve ...
+> Cleaner and more attractive looking wireframes, may juat start drawing them by hand but I do have more of an appreciation for the process.

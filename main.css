@@ -1,3 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 body {
-    background-color: goldenrod;
+  background-color: goldenrod;
+}
+
+#header {
+  border: 0.5rem solid whitesmoke;
+  width: 100%;
+  height: 20vh;
+  padding: 0.7rem 1.5rem;
+}
+
+#footer {
+  border: 0.5rem solid whitesmoke;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+}
+
+.video-landing-page {
+    position: relative;
+    width: 100%;
+    min-height: 80vh; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f2f2f2;
 }

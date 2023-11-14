@@ -40,16 +40,16 @@ Choose from any popular app. It can be an app for anything:
 
 #### Create a minimum of 10 user stories. Make sure to use the format:
 
- > As a puzzle enthusiast, I want to be able to rent a variety of jigsaw puzzles, without having to buy and store them all myself.
- > As a guest, I want to browse the catalog of available puzzles and see detailed information about each puzzle, such as the size, difficulty level, and theme. 
- > As a paid member, I want to add puzzles to my wishlist so that I can easily find them again later.
- > As a paid member, I want to pay for my subscription securely using my preferred payment method.
- > As a paid member, I want to be able to track the status of my rental orders and receive notifications when my puzzles are shipped and delivered.
- > As a paid or trial member, I want to return my completed puzzles easily and conveniently.
- > As a paid member, contact customer support if I have any problems with my rental.
- > As a paid member, I want to be able to rate and review puzzles that I have rented so other customers can see the feedback.
- > As a paid member, participate in puzzle challenges and competitions.
- > As a paid member, set up a recurring rental subscription so that they always have new puzzles to work on
+ - As a puzzle enthusiast, I want to be able to rent a variety of jigsaw puzzles, without having to buy and store them all myself.
+ - As a guest, I want to browse the catalog of available puzzles and see detailed information about each puzzle, such as the size, difficulty level, and theme. 
+ - As a paid member, I want to add puzzles to my wishlist so that I can easily find them again later.
+ - As a paid member, I want to pay for my subscription securely using my preferred payment method.
+ - As a paid member, I want to be able to track the status of my rental orders and receive notifications when my puzzles are shipped and delivered.
+  - As a paid or trial member, I want to return my completed puzzles easily and conveniently.
+ - As a paid member, contact customer support if I have any problems with my rental.
+ - As a paid member, I want to be able to rate and review puzzles that I have rented so other customers can see the feedback.
+ - As a paid member, participate in puzzle challenges and competitions.
+ - As a paid member, set up a recurring rental subscription so that they always have new puzzles to work on
 
 
 
@@ -112,15 +112,15 @@ Create three wireframes. You may use a free online tool or draw them on paper (y
 
 1. Create a wireframe for the main page that shows an index view (on mobile).
 
-> ![Index on mobile view](./assets/will do_puzzles_mobile page.png)
+> ![Index on mobile view] (assets/mobile-page.png)
 
 1. Create a wireframe for a wide desktop view for either the index view.
 
-> ![Index on desktop view]()
+> ![Index on desktop view](assets/will do_puzzles_main web page.png)
 
 1. Create a wireframe for the view that has a new form (new user, new shipping information, new post, new song, new product etc.) view (on mobile).
 
-> ![New view]()
+> ![New view](assets/will do_puzzles_form page.png)
 
 ## Minimum Viable Product
 
@@ -132,10 +132,10 @@ Deploy this to GitHub pages.
 
 Write down three things that went well for you doing this lab.
  
- - one
- - two
- - three
+ - Getting a better understanding of bringing together html, css, js.
+ - Experimenting with different workflows in putting an interactive website together.
+ - Not only putting in the necessary time to complete the project but keeping it as simple as possible for the sake of time. 
 
 Write down one thing you'd improve on for next time.
 
-> One thing I'd improve ...
+> One thing I'd improve is adding a little bit in the wireframe and spending more time finding better resources.

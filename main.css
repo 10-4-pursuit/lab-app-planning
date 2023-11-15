@@ -11,12 +11,17 @@ body {
 
 #header {
   border: 0.5rem solid whitesmoke;
+  border-bottom: 1px solid #ccc;
+  position: relative;
   width: 100%;
   height: 20vh;
   padding: 0.7rem 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   
+}
+h2 {
+    position: relative;
 }
 
 #footer {
@@ -72,3 +77,5 @@ body {
     padding: 15px;
     cursor: pointer;
 }
+
+

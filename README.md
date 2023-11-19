@@ -32,19 +32,28 @@ Choose from any popular app. It can be an app for anything:
 
 #### In 1-3 sentences describe your application.
 
-> My app ...
+> 1. My app allows users to see the capacity of facilities of NYC parks and recreation centers
+> 2. users who login will be able to check all real time capacity + avaialability of the centers as a whole as well as sign up for a NYC Parks and recreation membership
+> 3. organizations/ sports teams looking for permits and usage of public fields will be able to submite quries as well as see if any public spaces are being used and submit permits electronically
 
 #### What is the name of your application?
 
-> APP NAME
+> Leisure Link
 
 #### Create a minimum of 10 user stories. Make sure to use the format:
 
-- `As a <type of user>, I want to <some goal>, so that <some reason>.`
-
+- 1. As a user, I want to be able to see how many different indoor/outdoor sports facilities are operating in the 5 boroughs in NYC so that I can choose one based on my preferences
+- 2. As a user, I want to be able to see all the operating hours, vaction closures, and construction plans as well as the schedules of when the individual facilities are operating of all Parks and Recreation Facilities to see which one meets my preferences
+- 3. As a user, I want to be able to sign up for a membership preliminarily throught the app and continue at my nearest Parks and Recreation facility to reduce wait times and lines or from my home computer.
+- 4. As a user, I want to be able to check the real time capacity of the facilities as well as the capacity of each individual sports facility ie, weight room, basketball court, swimming pool to choose which facility i prefer to visit.
+- 5. As a user, I want to be able to make a preliminary reservation based on the above factors to the facility of my choice so that the facility knows ahead if I'm adding to the capacity.
+- 6. As a user, I want to be able to cancel, change, edit my reservation so that I can choose a different facility.
+- 7. As an organization, I want to be able to check if there are any active permits for any indoor and outdoor facilities as well as spaces, so that I can plan my event of choice (sports competition, group fitness class, charuty fundraiser etc)
+- 8. As a user, I would like to see a map of all the different facilities in NYC and get directions to them based on different modes of transportation.
+- 9. As an organization, I want to able to fill out a permit online preliminarily and continue the process with documents to upload and setting up a meeting to finalize reserving a spot for my organization.
+- 10. As an organization, I want to be able to see which facilities/park spaces need a permit and which dont as well as the operating hours.
 Write the user stories below. Add more `>` for each user story or use `-` to make a list
 
-> As a ...
 
 #### Create a new board
 
@@ -55,7 +64,7 @@ Follow the format provided (name of board, the 5 lists etc.) in the reading.
 
 Provide a link to your board below.
 
-> [APP NAME board]()
+> [https://trello.com/b/jDPIsel0/leisure-link]()
 
 #### For one card, fill out more details, include:
 
@@ -68,7 +77,7 @@ Move that card to the `Doing` list and assign yourself to it.
 
 Provide a link to the specific card below.
 
-> [Detailed card]()
+> [https://trello.com/c/kjMacls9]()
 
 #### Create one bug card.
 
@@ -86,7 +95,7 @@ Make sure to label it as a bug. Move the card to the `To Do` list.
 
 Provide a link to the specific card below.
 
-> [Bug card]()
+> [https://trello.com/c/fVcjHEz5]()
 
 #### Create one chore card
 
@@ -97,7 +106,7 @@ Think back to a chore you had in a recent lab or project and model that example.
 
 Provide a link to the specific card below.
 
-> [Chore card]()
+> [https://trello.com/c/WLrk1HEb]()
 
 ### Wireframes
 
@@ -125,10 +134,10 @@ Deploy this to GitHub pages.
 
 Write down three things that went well for you doing this lab.
  
- - one
- - two
- - three
+ - The brainstorming of this product went very well for me and I was able to identify a problem that might have a solution.
+ - Being able to list the many different user stories and see what an actual user would want from an app
+ - Utilizing trello to disseminate the different tasks
 
 Write down one thing you'd improve on for next time.
 
-> One thing I'd improve ...
+> One thing I would improve would be the layout for this product and exactly what products I would sell.

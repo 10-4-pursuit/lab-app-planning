@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://assetsio.reedpopcdn.com/dnd-players-handbook-product-image.png?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp");
+    background-size: cover;
+    background-position: center;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=118351"), pointer;
+}
+
+/* FORM */
+.container {
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    background-image: url("https://t4.ftcdn.net/jpg/04/33/88/81/360_F_433888142_CuT7E8O5CWQjxECbwqbS52ukuMc9jmHl.jpg");
+    background-position: center;
+    background-size: 100vh 100vw;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.container #name {
+    width: 63%;
+}
+
+.container input {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+}
+
+.label-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=118351"), pointer;
+}
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: calc(33% - 10px);
+    padding: 10px;
+    background-color: #050000;
+    color: #fff;
+    border: 4px solid #fe0707;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: #ff0000;
+    border: 3px solid #000000;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=118351"), pointer;
+}
+
+button:active {
+    box-shadow: 2px 2px 5px #000000;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=118351"), pointer;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 910px) {
+    .container {
+        background-size: 250vh 250vw;
+    }
+}

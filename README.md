@@ -32,19 +32,37 @@ Choose from any popular app. It can be an app for anything:
 
 #### In 1-3 sentences describe your application.
 
-> My app ...
+> My app will randomly generate character info for DnD.
 
 #### What is the name of your application?
 
-> APP NAME
+> DnD Character Creator
 
 #### Create a minimum of 10 user stories. Make sure to use the format:
 
-- `As a <type of user>, I want to <some goal>, so that <some reason>.`
+- `As a <type of user>, I want to <some goal>, so that <some reason>.` 
 
 Write the user stories below. Add more `>` for each user story or use `-` to make a list
 
-> As a ...
+> 1. As a Dungeon Master, I want to quickly generate a random character's name, race, and class, so that I can easily populate my game world with diverse and interesting NPCs.
+
+> 2. As a novice player, I want the app to provide a simplified character backstory along with the basic details, so that I can start playing without the need to create an elaborate history for my character.
+
+> 3. As a player preparing for a one-shot campaign, I want the app to generate a unique set of abilities, skills, and equipment for my character, so that I can experience different aspects of the game in a short time.
+
+> 4. As a storyteller, I want the app to offer options for character alignment and personality traits, so that I can create characters that fit seamlessly into the narrative of my campaign.
+
+> 5. As a player interested in a challenge, I want the app to include options for generating characters with quirks or disadvantages, so that I can explore unique and difficult-to-play character concepts.
+
+> 6. As a game master planning a long-term campaign, I want the app to provide detailed character backstories, including personal goals and motivations, so that I can weave these elements into the overarching plot.
+
+> 7. As a player looking for variety, I want the app to allow me to customize the level and experience of the generated character, so that I can create characters at different power levels for various adventures.
+
+> 8. As a player participating in a themed campaign, I want the app to offer settings and backgrounds that align with the campaign's theme, so that my character feels integrated into the game world.
+
+> 9. As a Dungeon Master running a session on the fly, I want the app to quickly generate random encounters, complete with detailed characters, so that I can improvise scenarios without extensive preparation.
+
+> 10. As a player, I want to be able to fill out some information about my character and also have the option to have the information selected for me, if I don't want to select the info on my own.
 
 #### Create a new board
 
@@ -55,7 +73,7 @@ Follow the format provided (name of board, the 5 lists etc.) in the reading.
 
 Provide a link to your board below.
 
-> [APP NAME board]()
+> [https://trello.com/b/vLw6U0CM/dnd-character-randomizer]()
 
 #### For one card, fill out more details, include:
 
@@ -68,7 +86,7 @@ Move that card to the `Doing` list and assign yourself to it.
 
 Provide a link to the specific card below.
 
-> [Detailed card]()
+> [https://trello.com/c/397xxMaI]()
 
 #### Create one bug card.
 
@@ -86,7 +104,7 @@ Make sure to label it as a bug. Move the card to the `To Do` list.
 
 Provide a link to the specific card below.
 
-> [Bug card]()
+> [https://trello.com/c/vehXiv0q]()
 
 #### Create one chore card
 
@@ -97,7 +115,7 @@ Think back to a chore you had in a recent lab or project and model that example.
 
 Provide a link to the specific card below.
 
-> [Chore card]()
+> [https://trello.com/c/Ya3nKIzj]()
 
 ### Wireframes
 
@@ -105,15 +123,12 @@ Create three wireframes. You may use a free online tool or draw them on paper (y
 
 1. Create a wireframe for the main page that shows an index view (on mobile).
 
-> ![Index on mobile view]()
+> ![https://wireframe.cc/uu6u3f]()
 
 1. Create a wireframe for a wide desktop view for either the index view.
 
-> ![Index on desktop view]()
+> ![https://wireframe.cc/R0aGrq]()
 
-1. Create a wireframe for the view that has a new form (new user, new shipping information, new post, new song, new product etc.) view (on mobile).
-
-> ![New view]()
 
 ## Minimum Viable Product
 
@@ -125,10 +140,10 @@ Deploy this to GitHub pages.
 
 Write down three things that went well for you doing this lab.
  
- - one
- - two
- - three
+ - I was able to use Trello to make a plan for this app
+ - Designing the website after making the wireframes felt easier than just trying to make website.
+ - I was able to effectively implement an API in my code.
 
 Write down one thing you'd improve on for next time.
 
-> One thing I'd improve ...
+> I will try to organize my thoughts better using Trello.

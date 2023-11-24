@@ -2,7 +2,7 @@
   --primary-color: #1abc9c;
   --secondary-color: #48c9b0;
   --accent-color: #16a085;
-  
+
   --sand-color: #f5d7b0;
 
   --black-color: #000000;
@@ -133,12 +133,12 @@ nav {
 }
 
 nav .container ul a.active {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 nav .container .logo {
-    width: 5%;
-    height: 3rem;
+  width: 5%;
+  height: 3rem;
 }
 
 nav button {
@@ -174,140 +174,131 @@ nav .icons {
   font-size: 1.2rem;
 }
 
-/* Styling for the header section */
 #highlights {
-    background-color: var(--sand-color);
-    padding: 4rem 0;
-    overflow-x: hidden; /* Hide horizontal overflow */
+  background-color: var(--sand-color);
+  padding: 4rem 0;
+  overflow-x: hidden;
+}
+
+#highlights .row {
+  display: flex;
+  align-items: stretch;
+  overflow-x: auto;
+}
+
+#highlights .column {
+  flex: 1;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+#highlights .column h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#highlights .column p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+#highlights .slideshow-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  align-items: flex-start;
+}
+
+#highlights .slideshow-container .mySlides {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+#highlights .slideshow-container img {
+  width: 100%;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+#highlights .prev,
+#highlights .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#highlights .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#highlights .prev:hover,
+#highlights .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#highlights .text,
+#highlights .numbertext {
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#highlights .dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#highlights .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#highlights .active,
+#highlights .dot:hover {
+  background-color: #717171;
+}
+
+#highlights .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
   }
-  
-  /* Flexbox for horizontal layout */
-  #highlights .row {
-    display: flex;
-    align-items: stretch; /* Make columns stretch to the same height */
-    overflow-x: auto; /* Enable horizontal scrolling */
+  to {
+    opacity: 1;
   }
-  
-  /* Styling for the text content in the first column */
-  #highlights .column {
-    flex: 1;
-    padding: 0 1rem; /* Add padding for spacing */
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #highlights .column h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  #highlights .column p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #666;
-  }
-  
-  /* Styling for the slideshow container */
-  #highlights .slideshow-container {
-    display: flex; /* Display slides in a row */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Snap to each slide */
-    align-items: flex-start; /* Align slides to the start of the container */
-  }
-  
-  /* Styling for the slideshow images */
-  #highlights .slideshow-container .mySlides {
-    flex: 0 0 100%; /* Each slide takes 100% width */
-    scroll-snap-align: start; /* Snap to the start of each slide */
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #highlights .slideshow-container img {
-    width: 100%;
-    border-radius: 8px;
-    flex-grow: 1; /* Allow the image to grow to fill the available space */
-  }
-  
-  /* Styling for the next and previous buttons in the slideshow */
-  #highlights .prev,
-  #highlights .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  
-  #highlights .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  #highlights .prev:hover,
-  #highlights .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Styling for the text captions and number text in the slideshow */
-  #highlights .text,
-  #highlights .numbertext {
-    color: #fff;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Styling for the dots in the slideshow */
-  #highlights .dot-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  #highlights .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  #highlights .active,
-  #highlights .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation for the slideshow */
-  #highlights .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
+}
+
 /* ======================= FOOTER ======================= */
 footer {
   background: var(--primary-color);

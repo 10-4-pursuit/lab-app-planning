@@ -1,5 +1,14 @@
 # App Planning Lab
 
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Instructions](#instructions)
+- [Questions](#questions)
+- [Minimum Viable Product](#minimum-viable-product)
+- [Reflection](#reflection)
+- [Demo](#demo)
+
 ## Getting Started
 
 1. Fork and clone this repository.
@@ -153,3 +162,7 @@ Write down one thing you'd improve on for next time.
 
 > One thing I'd improve ...
 One thing I'd improve is more so not trying to do everything at once, but taking everything as individual pieces.
+
+## Demo
+
+Visit the [live demo](https://bperalta14.github.io/lab-app-planning/) to see the project in action.

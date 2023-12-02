@@ -36,7 +36,7 @@ A community driven second hand exchange / locator app, something similar to offe
 
 #### What is the name of your application?
 
-Neighborcould.
+Neighborcould. An application to strengthen the ties that surround us, our neighbors.
 
 #### Create a minimum of 10 user stories. Make sure to use the format:
 
@@ -79,7 +79,7 @@ Follow the format provided (name of board, the 5 lists etc.) in the reading.
 
 Provide a link to your board below.
 
-> [APP NAME board]()
+> [my-trello-board](https://trello.com/invite/b/Wfp3btlN/ATTI5fcc6327ba2a85cd3531e4db47b4a25f639B4BA9/my-trello-board)
 
 #### For one card, fill out more details, include:
 
@@ -92,7 +92,7 @@ Move that card to the `Doing` list and assign yourself to it.
 
 Provide a link to the specific card below.
 
-> [Detailed card]()
+> [Detailed card](https://trello.com/c/fW62KlgB/4-app-summary-card)
 
 #### Create one bug card.
 
@@ -110,7 +110,7 @@ Make sure to label it as a bug. Move the card to the `To Do` list.
 
 Provide a link to the specific card below.
 
-> [Bug card]()
+> [Bug card](https://trello.com/c/BH2ZTHV6/5-bug-card-1)
 
 #### Create one chore card
 
@@ -121,7 +121,7 @@ Think back to a chore you had in a recent lab or project and model that example.
 
 Provide a link to the specific card below.
 
-> [Chore card]()
+> [Chore card](https://trello.com/c/HhGlovtt/6-chore-card-1)
 
 ### Wireframes
 
@@ -129,15 +129,15 @@ Create three wireframes. You may use a free online tool or draw them on paper (y
 
 1. Create a wireframe for the main page that shows an index view (on mobile).
 
-> ![Index on mobile view]()
+> ![Index on mobile view](https://wireframe.cc/nU8XJA)
 
 1. Create a wireframe for a wide desktop view for either the index view.
 
-> ![Index on desktop view]()
+> ![Index on desktop view](https://wireframe.cc/nU8XJA)
 
 1. Create a wireframe for the view that has a new form (new user, new shipping information, new post, new song, new product etc.) view (on mobile).
 
-> ![New view]()
+> ![New view](https://wireframe.cc/fFdkEs)
 
 ## Minimum Viable Product
 
@@ -149,10 +149,10 @@ Deploy this to GitHub pages.
 
 Write down three things that went well for you doing this lab.
  
- - one
- - two
- - three
+ - I think I did well creating a vision for the layouts of the pages.
+ - I used the appropriate resources to make the app planning easier.
+ - Learned how to better plan when creating an app.
 
 Write down one thing you'd improve on for next time.
 
-> One thing I'd improve ...
+> One thing I'd improve... Is using these methods when creating all my projects.
